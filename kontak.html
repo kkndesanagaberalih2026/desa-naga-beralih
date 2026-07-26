@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Desa Naga Beralih</title>
+
+    <link rel="stylesheet" href="kontak.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header class="top">
+        <div class="wrap">
+            <div class="judul-header">
+                <small>Situs</small>
+                <h1>Desa Naga Beralih</h1>
+            </div>
+            <img src="kampar.png" class="logo">
+        </div>
+    </header>
+
+    <nav>
+        <button class="nav-toggle">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <div class="nav-links">
+            <a href="index.html">
+                <i class="bi bi-house-fill"></i> Beranda
+            </a>
+            <a href="profil.html">
+                <i class="bi bi-person-fill"></i> Profil Desa
+            </a>
+            <a href="pemerintah.html">
+                <i class="bi bi-bank2"></i> Pemerintahan Desa
+            </a>
+            <a href="kontak.html" class="active">
+                <i class="bi bi-telephone-fill"></i> Kontak
+            </a>
+        </div>
+    </nav>
+
+
+    <main class="container">
+        <section class="card">
+            <h3><i class="bi bi-envelope-fill"></i> Hubungi Kami</h3>
+            <p>Jika masyarakat memiliki pertanyaan, saran, maupun pengaduan terkait pelayanan desa, silakan menghubungi
+                Pemerintah Desa Naga Beralih melalui informasi berikut:</p>
+            <ul class="info-list">
+                <li><i class="bi bi-envelope-fill"></i> <a
+                        href="mailto:desanagaberalih@gmail.com">desanagaberalih@gmail.com</a></li>
+                <li><i class="bi bi-globe"></i> <a href="http://www.desanagaberalih.com"
+                        target="_blank">www.desanagaberalih.com</a></li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h3><i class="bi bi-geo-alt-fill"></i> Alamat</h3>
+            <p>RT 008 RW 004 Dusun II Naga Beralih, Desa Naga Beralih, Kecamatan Kampar Utara, Kabupaten Kampar,
+                Provinsi Riau, Kode Pos
+                28463 / 28469.</p>
+        </section>
+
+        <section class="card">
+            <h3><i class="bi bi-clock-fill"></i> Jam Pelayanan</h3>
+            <table class="jam">
+                <tr>
+                    <th>Hari</th>
+                    <th>Jam Pelayanan</th>
+                    <th>Jam Istirahat</th>
+                </tr>
+                <tr>
+                    <td>Senin–Kamis</td>
+                    <td>08.00–15.00 WIB</td>
+                    <td>12.00–13.30</td>
+                </tr>
+                <tr>
+                    <td>Jumat</td>
+                    <td>08.00–16.00 WIB</td>
+                    <td>11.30–13.30</td>
+                </tr>
+                <tr>
+                    <td>Sabtu–Minggu</td>
+                    <td>Libur</td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 Pemerintah Desa Naga Beralih
+        <br>Dikembangkan oleh Tim KKN Universitas Riau Tahun 2026.
+    </footer>
+
+    <script>
+        const toggleBtn = document.querySelector(".nav-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        toggleBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("show");
+        });
+    </script>
+
+
+</body>
+
+</html>

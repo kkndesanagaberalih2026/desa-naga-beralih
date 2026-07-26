@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemerintahan Desa Naga Beralih</title>
+
+    <link rel="stylesheet" href="pemerintah.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header class="top">
+        <div class="wrap">
+            <div class="judul-header">
+                <small>Situs</small>
+                <h1>Desa Naga Beralih</h1>
+            </div>
+            <img src="kampar.png" class="logo">
+        </div>
+    </header>
+
+    <nav>
+        <button class="nav-toggle">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <div class="nav-links">
+            <a href="index.html">
+                <i class="bi bi-house-fill"></i> Beranda
+            </a>
+            <a href="profil.html">
+                <i class="bi bi-person-fill"></i> Profil Desa
+            </a>
+            <a href="pemerintah.html" class="active">
+                <i class="bi bi-bank2"></i> Pemerintahan Desa
+            </a>
+            <a href="kontak.html">
+                <i class="bi bi-telephone-fill"></i> Kontak
+            </a>
+        </div>
+    </nav>
+
+
+    <main class="container">
+        <section class="card">
+            <h3><i class="bi bi-diagram-3-fill"></i> Struktur Organisasi</h3>
+            <p>Pemerintah Desa Naga Beralih berkomitmen memberikan pelayanan terbaik kepada masyarakat melalui
+                penyelenggaraan pemerintahan yang transparan, akuntabel, dan berorientasi pada pelayanan publik.</p>
+            <div class="struktur-img">
+                <img src="strukturdesa.png" alt="Struktur Organisasi Desa">
+            </div>
+        </section>
+
+        <section class="card">
+            <h3><i class="bi bi-people-fill"></i> Perangkat Desa</h3>
+            <div class="perangkat">
+
+                <div class="kepala-desa">
+                    <img src="kades.png" alt="Kepala Desa">
+                    <p><b>Kepala Desa</b><br>Razali</p>
+                </div>
+
+                <div class="grid-perangkat">
+                    <div class="perangkat-item">
+                        <img src="sekdes.png" alt="Perangkat Desa">
+                        <p><b>Sekretaris Desa</b><br>Hadi Firdaus</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="perencanaan.png" alt="Perangkat Desa">
+                        <p><b>Kaur Perencanaan</b><br>Thomy Aklam Ilham</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="keuangan.png" alt="Perangkat Desa">
+                        <p><b>Kaur Keuangan</b><br>Nurhasni</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="" alt="Perangkat Desa">
+                        <p><b>Kaur Umum</b><br>Odilia</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="pemerintahankas.png" alt="Perangkat Desa">
+                        <p><b>Kasi Pemerintahan</b><br>Miranda Putri</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="pelayanan.png" alt="Perangkat Desa">
+                        <p><b>Kasi Pelayanan</b><br>Munawir</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="kesejahteraan.png" alt="Perangkat Desa">
+                        <p><b>Kasi Kesejahteraan</b><br>Nurazima</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="kadus 1.png" alt="Perangkat Desa">
+                        <p><b>Kepala Dusun I</b><br> Edi Maswir</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="kadus 2.png" alt="Perangkat Desa">
+                        <p><b>Kepala Dusun II</b><br>Heri Nopriadi</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="kadus 3.png" alt="Perangkat Desa">
+                        <p><b>Kepala Dusun III</b><br>Indra Parniza</p>
+                    </div>
+                    <div class="perangkat-item">
+                        <img src="" alt="Perangkat Desa">
+                        <p><b>Kepala Dusun IV</b><br>Ramzi</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 Pemerintah Desa Naga Beralih
+        <br>Dikembangkan oleh Tim KKN Universitas Riau Tahun 2026.
+    </footer>
+
+    <script>
+        const toggleBtn = document.querySelector(".nav-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        toggleBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("show");
+        });
+    </script>
+
+
+</body>
+
+</html>
